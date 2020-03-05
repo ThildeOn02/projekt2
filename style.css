@@ -26,16 +26,16 @@
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    right: 0px;
+  
     height: 90vh;
     top: -90vh;
     background-color: #FFD9D3;
     align-items: center; 
-    width: 20%;
+    width: 30%;
     transition: all 1s;
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 0px;
     font-size: 18px;
   }
   .navActive {
@@ -99,7 +99,20 @@
       grid-area: ft;
   }
 
+#search {
 
+  position: absolute;
+  left: 100px;
+
+}
+
+#searchfield {
+  display: none;
+}
+
+.navSearch {
+  transform: inline;
+}
 
 
 
