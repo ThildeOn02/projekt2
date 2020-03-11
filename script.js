@@ -10,4 +10,4 @@ burger.addEventListener('click', toggleMeny)
 
 
 
-search.addEventListener('click', )
+search.addEventListener('click', toggleMeny )
