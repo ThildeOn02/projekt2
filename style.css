@@ -71,6 +71,7 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
+
   #container {
       display:grid;
       height:100vh;
@@ -108,7 +109,7 @@
 }
 
 #searchfield {
-  display: inline;
+  display: none;
   position: absolute;
   top: 10px;
   left: 50px;
@@ -119,6 +120,11 @@
   display: inline;
 }
 
+.searchActive {
+    transform: translate(100vh)
+  }
+
+  
 span {
   font-size: 20px;
 display: flex;
@@ -126,7 +132,7 @@ display: flex;
 
 #slider {
   overflow: hidden;
-  display: none;
+  display: inline;
 
 }
 #slider figure {
