@@ -36,6 +36,7 @@
     transition: all 1s;
     left: 0px;
     font-size: 18px;
+    
   }
   .navActive {
     transform: translateY(100vh);
@@ -50,7 +51,7 @@
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .burger div {
@@ -118,6 +119,7 @@
 .navSearch {
   transform: inline;
   display: inline;
+
 }
 
 .searchActive {
@@ -126,8 +128,12 @@
 
   
 span {
-  font-size: 20px;
+  font-size: 30px;
 display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+
 }
 
 #slider {
@@ -181,6 +187,13 @@ display: flex;
   }
 
 
+}
+
+#bild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 
